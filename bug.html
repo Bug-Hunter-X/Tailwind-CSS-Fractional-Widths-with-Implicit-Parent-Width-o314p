@@ -1,0 +1,13 @@
+```html
+<div class="bg-gray-100 p-4">
+  <div class="flex space-x-4">
+    <div class="w-1/2 bg-blue-500 p-2">
+      Div 1
+    </div>
+    <div class="w-1/2 bg-red-500 p-2">
+      Div 2
+    </div>
+  </div>
+</div>
+```
+This code uses Tailwind's `w-1/2` class to make each div take up half the width. However, this only works if the parent container has a defined width. In this case, the parent is only constrained by the inner content, causing unexpected behavior.
